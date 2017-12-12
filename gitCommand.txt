@@ -1,0 +1,17 @@
+[inside of target file]
+git init -> create git repository
+git add index.html -> add given file
+git add . -> add all files
+git status -> 
+	1.what's in the staging queue 
+	2.any files that are untracked by Git at the moment
+Diff between git add & git commit?
+	-> git add save the current state
+	-> git commit makes it a more permanent record -> it's ready for someone to look at 
+	-> Commit is a record of the state of the folder. Whatever was in the staging environment will be locked as a record in the commit log
+Manage files in and out of the staging queue
+	-> git checkout -> grab the file out of the staging environment, which grap the previous version of the file and then it overwrote the changes that we had just made
+3 Main components of a Git repository: working directory, staged snapshot, commit history
+	-> https://www.atlassian.com/git/tutorials/resetting-checking-out-and-reverting
+	-> Commit-level operation
+	1.Reset -> On the commit-level, resetting is a way to move the tip of a branch to a different commit.
